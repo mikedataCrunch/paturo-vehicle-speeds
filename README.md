@@ -34,12 +34,12 @@ Finally, we determined the most important predictors using Shapley additive expl
 
 
 ### Python Tools Used
-1. lightgbm - a tree-based package used in regression
-2. SHAP - Shapley additive explanations package is a post-hoc machine learning interpretation tool. This was used in surfacing impactful features using SHAP score.
-3. matplotlib - basic plotting package for python
-4. pandas - for handling tabluar data (e.g., .csv files)
-5. networkx and osmnx - for handling road network data. Used in taggign data points with road info (i.e., number of lanes, speed limit)
-6. geopandas - for handlang geodata used for tagging data points with land-use data from 
+1. `lightgbm` - a tree-based package used in regression
+2. `shap` - Shapley additive explanations package is a post-hoc machine learning interpretation tool. This was used in surfacing impactful features using SHAP score.
+3. `matplotlib` - basic plotting package for python
+4. `pandas` - for handling tabluar data (e.g., .csv files)
+5. `networkx` and `osmnx` - for handling road network data. Used in taggign data points with road info (i.e., number of lanes, speed limit)
+6. `geopandas` - for handlang geodata used for tagging data points with land-use data from 
 
 
 
